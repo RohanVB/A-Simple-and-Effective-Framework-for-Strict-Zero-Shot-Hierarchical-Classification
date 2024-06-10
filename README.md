@@ -7,11 +7,11 @@ ABSTRACT: In recent years, large language models (LLMs) have achieved strong per
 
 This repository contains 3 files:
 
-1. Dataloaders.py: Used for loading and formatting YELP, WOS, and Amazon Beauty Datasets
+1. Dataloaders.py: Used for loading and formatting WOS, and Amazon Beauty Datasets
 2. Models.py: Used for model prediction using BART, T0pp, and nested BART-T0pp, BART-T0pp-BART models
 3. Evaluate.py: Used for accuracy and macro F1 calculations 
 
-Scripts may need to be modified to ensure consistency with file paths. Required permissions to download datasets from corresponding vendors (Yelp, WOS, Amazon Beauty) may be required to be attained. This repository only contains code to be able to replicate all results in our paper.
+Scripts may need to be modified to ensure consistency with file paths. Required permissions to download datasets from corresponding vendors (WOS, Amazon Beauty) may be required to be attained. This repository only contains code to be able to replicate all results in our paper.
 
 # Citation
 
